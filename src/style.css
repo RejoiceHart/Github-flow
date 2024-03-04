@@ -1,0 +1,19 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+p{
+    text-decoration: underline;
+    letter-spacing: 30px;
+    text-align: center;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
